@@ -5,16 +5,10 @@ import { StaticImageData } from "next/image";
 interface CardInfo {
   image: string | StaticImageData;
   title: string;
-  description: string;
   link: string;
 }
 
-export default function ProjectCard({
-  image,
-  title,
-  description,
-  link,
-}: CardInfo) {
+export default function ProjectCard({ image, title, link }: CardInfo) {
   return (
     <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300">
       <Image
@@ -26,7 +20,6 @@ export default function ProjectCard({
       />
       <div className="p-6">
         <h3 className="text-2xl font-semibold mb-2 text-gray-900">{title}</h3>
-        <p className="text-gray-600 mb-4">{description}</p>
         {link && (
           <Link
             href={link}

@@ -12,7 +12,6 @@ export default function Navbar() {
 
   const links = [
     { href: "/", label: "Home" },
-    { href: "/about", label: "About Me" },
     { href: "/projects", label: "Projects" },
     {
       href: "/services",
@@ -26,8 +25,8 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-white shadow-md sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center overflow-x-hidden">
+    <nav className="bg-white shadow-md sticky top-0 z-50 md:overflow-visible overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center ">
         {/* Логотип */}
         <h1 className="text-2xl font-bold text-pink-500">SMM Portfolio</h1>
 
@@ -41,16 +40,15 @@ export default function Navbar() {
             if (link.subLinks) {
               return (
                 <li key={link.href} className="relative group">
-                  <button
-                    className={`flex items-center gap-1 hover:text-pink-500 transition ${
-                      isActive ? "text-pink-500 font-semibold" : ""
-                    }`}
-                  >
+                  <div className="flex items-center gap-1 cursor-pointer hover:text-pink-500 transition">
                     {link.label} <ChevronDown size={16} />
-                  </button>
+                  </div>
 
-                  {/* Підменю для десктопу */}
-                  <ul className="absolute top-full left-0 mt-2 bg-white shadow-md rounded-md py-2 w-56 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                  <ul
+                    className="absolute top-full left-0 mt-2 bg-white shadow-md rounded-md py-2 w-56 
+                 opacity-0 invisible group-hover:opacity-100 group-hover:visible 
+                 transition-all duration-200 z-50"
+                  >
                     {link.subLinks.map((sub) => (
                       <li key={sub.href}>
                         <Link
