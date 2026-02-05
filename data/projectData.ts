@@ -4,8 +4,7 @@ export const projectData: Record<string, Project> = {
   ricota: {
     title: "Клініка RICOTA",
     url: "https://www.instagram.com/stomatologia_rikota",
-    image:
-      "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1764198531/ricota/ricota-intro_yaluss.jpg",
+    image: "",
     request: `• Розробити візуальний стиль на основі бренду.
   • Створити шаблони для постів та сторіс у корпоративному дизайні
   • Налагодити регулярне ведення контенту

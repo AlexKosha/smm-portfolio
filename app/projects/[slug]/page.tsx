@@ -36,11 +36,15 @@ export default async function ProjectDetails({ params }: ProjectPageProps) {
   const introFoto = media.find((item) => item.type === "introFoto");
   const beforeFoto = media.find((item) => item.type === "before");
   const afterFoto = media.find((item) => item.type === "after");
-  const bgImage = project.image;
+  const bgImage = project.image || ""; // якщо пусто, буде пустий рядок
+
+  const bgStyle = bgImage
+    ? { backgroundImage: `url(${bgImage})` }
+    : { backgroundColor: "#000000" };
   return (
     <main
-      className="bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url(${bgImage})` }}
+      className="bg-cover bg-center bg-no-repeat min-h-screen"
+      style={bgStyle}
     >
       <Navbar />
       <section className="max-w-[85%] mx-auto py-20 px-2 text-center">
