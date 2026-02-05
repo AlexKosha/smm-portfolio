@@ -4,8 +4,7 @@ export const projectData: Record<string, Project> = {
   ricota: {
     title: "Клініка RICOTA",
     url: "https://www.instagram.com/stomatologia_rikota",
-    image:
-      "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1764198531/ricota/ricota-intro_yaluss.jpg",
+    image: "",
     request: `• Розробити візуальний стиль на основі бренду.
   • Створити шаблони для постів та сторіс у корпоративному дизайні
   • Налагодити регулярне ведення контенту
@@ -135,8 +134,7 @@ export const projectData: Record<string, Project> = {
   detailing: {
     title: "Osnova Deteiling",
     url: "https://www.instagram.com/osnova_detailing",
-    image:
-      "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1764166898/detailing/detailing-intro_gihp8d.jpg",
+    image: "",
     request: `• Оновити Instagram-сторінку, щоб вона виглядала професійно й привабливо
 • Зробити єдиний стиль у візуалі та публікаціях
 • Зрозуміло показати послуги та переваги студії
@@ -236,8 +234,7 @@ export const projectData: Record<string, Project> = {
   cookie: {
     title: "ART PECHYVO",
     url: "https://www.instagram.com/art_pechyvo",
-    image:
-      "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770296518/cookie/cookie-intro_rueadc.jpg",
+    image: "",
     request: `• Підвищити активність та збільшити кількість замовлень через Instagram
 • Показати бренд не лише як продукт, а як емоцію для дітей і дорослих
 • Оновити подачу контенту: зробити фото та відео яскравішими, динамічними 
@@ -360,8 +357,7 @@ export const projectData: Record<string, Project> = {
   bygrek: {
     title: "Fitness By Grek",
     url: "https://www.instagram.com/fitness_by_grek",
-    image:
-      "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770296457/bygrek/grek-intro_ish4ky.jpg",
+    image: "",
     request: `• Збільшити кількість підписників та охоплення
 • Підвищити візуальну впізнаваність бренду в Instagram
 • Удосконалити контент завдяки креативному підходу
@@ -492,8 +488,7 @@ export const projectData: Record<string, Project> = {
   eyes: {
     title: "eyes.ua",
     url: "https://www.instagram.com/eyes.ua",
-    image:
-      "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770297478/eyes/eyes-intro_yil5k3.jpg",
+    image: "",
     request: `• Формувати повноцінну та експертну присутність бренду в Instagram
 • Створити структурований профіль, зрозумілий для нових пацієнтів
 • Запустити системний контент, що викликає довіру та пояснює цінність послуг
