@@ -3,7 +3,7 @@ import { Project } from "../types/projectTypes";
 export const projectData: Record<string, Project> = {
   ricota: {
     title: "Клініка RICOTA",
-    url: "https://www.instagram.com",
+    url: "https://www.instagram.com/stomatologia_rikota",
     image:
       "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1764198531/ricota/ricota-intro_yaluss.jpg",
     request: `• Розробити візуальний стиль на основі бренду.
@@ -134,7 +134,7 @@ export const projectData: Record<string, Project> = {
   },
   detailing: {
     title: "Osnova Deteiling",
-    url: "https://www.instagram.com",
+    url: "https://www.instagram.com/osnova_detailing",
     image:
       "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1764166898/detailing/detailing-intro_gihp8d.jpg",
     request: `• Оновити Instagram-сторінку, щоб вона виглядала професійно й привабливо
@@ -235,9 +235,9 @@ export const projectData: Record<string, Project> = {
   },
   cookie: {
     title: "ART PECHYVO",
-    url: "https://www.instagram.com",
+    url: "https://www.instagram.com/art_pechyvo",
     image:
-      "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1764166898/detailing/detailing-intro_gihp8d.jpg",
+      "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770296518/cookie/cookie-intro_rueadc.jpg",
     request: `• Підвищити активність та збільшити кількість замовлень через Instagram
 • Показати бренд не лише як продукт, а як емоцію для дітей і дорослих
 • Оновити подачу контенту: зробити фото та відео яскравішими, динамічними 
@@ -252,7 +252,7 @@ export const projectData: Record<string, Project> = {
     media: [
       {
         type: "introFoto",
-        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1764415455/cookie/cookie-intro_sbzbsf.jpg",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770296518/cookie/cookie-intro_rueadc.jpg",
         className: "stories",
       },
       {
@@ -278,6 +278,11 @@ export const projectData: Record<string, Project> = {
       {
         type: "storis",
         src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1764415450/cookie/cookie-storis5_kkur0w.jpg",
+        className: "stories",
+      },
+      {
+        type: "storis",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1770295383/cookie/cookie-stories6_exlckc.mp4",
         className: "stories",
       },
       {
@@ -330,13 +335,33 @@ export const projectData: Record<string, Project> = {
         src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1764416311/cookie/cookie-posts1_a0vxga.jpg",
         className: "analytics",
       },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770295158/cookie/cookie-post4_ah2d7x.png",
+        className: "analytics",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770295161/cookie/cookie-post3_uf9tqo.png",
+        className: "analytics",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770295161/cookie/cookie-post5_mzfkyl.png",
+        className: "analytics",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770295164/cookie/cookie-post6_uvhptl.png",
+        className: "analytics",
+      },
     ],
   },
   bygrek: {
     title: "Fitness By Grek",
-    url: "https://www.instagram.com",
+    url: "https://www.instagram.com/fitness_by_grek",
     image:
-      "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1764166898/detailing/detailing-intro_gihp8d.jpg",
+      "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770296457/bygrek/grek-intro_ish4ky.jpg",
     request: `• Збільшити кількість підписників та охоплення
 • Підвищити візуальну впізнаваність бренду в Instagram
 • Удосконалити контент завдяки креативному підходу
@@ -354,7 +379,7 @@ export const projectData: Record<string, Project> = {
     media: [
       {
         type: "introFoto",
-        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1764417864/bygrek/grek-intro_qtsdqk.jpg",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770296457/bygrek/grek-intro_ish4ky.jpg",
         className: "stories",
       },
       {
@@ -380,6 +405,11 @@ export const projectData: Record<string, Project> = {
       {
         type: "storis",
         src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1764417859/bygrek/grek-storis4_xdqufy.jpg",
+        className: "stories",
+      },
+      {
+        type: "storis",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1770295663/bygrek/grek-storis6_au8puu.mp4",
         className: "stories",
       },
       {
@@ -455,6 +485,120 @@ export const projectData: Record<string, Project> = {
       {
         type: "post",
         src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1764417838/bygrek/grek-posts6_btaad6.jpg",
+        className: "analytics",
+      },
+    ],
+  },
+  eyes: {
+    title: "eyes.ua",
+    url: "https://www.instagram.com/eyes.ua",
+    image:
+      "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770297478/eyes/eyes-intro_yil5k3.jpg",
+    request: `• Формувати повноцінну та експертну присутність бренду в Instagram
+• Створити структурований профіль, зрозумілий для нових пацієнтів
+• Запустити системний контент, що викликає довіру та пояснює цінність послуг
+• Налагодити комунікацію з аудиторією через сторітелінги та чіткі сценарії взаємодії`,
+    description: `• Органічне зростання кількості підписників
+• Експертний та корисний контент, що підсилює довіру до бренду
+• Регулярна контент-система (сторітелінги, пости-каруселі, Reels)
+• Структуровані та інформативні Highlights
+• Щоденні сторітелінги, орієнтовані на болі цільової аудиторії
+• Єдиний візуально-комунікаційний стиль
+• Чітка передача Tone of Voice`,
+    media: [
+      {
+        type: "introFoto",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770297478/eyes/eyes-intro_yil5k3.jpg",
+        className: "stories",
+      },
+      {
+        type: "storis",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1770297515/eyes/eyes-storis1_gblhey.mp4",
+        className: "stories",
+      },
+      {
+        type: "storis",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770297502/eyes/eyes-storis4_brnqnf.png",
+        className: "stories",
+      },
+      {
+        type: "storis",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770297498/eyes/eyes-storis3_ngae75.png",
+        className: "stories",
+      },
+      {
+        type: "storis",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770297482/eyes/eyes-storis6_nguozq.png",
+        className: "stories",
+      },
+      {
+        type: "before",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770297478/eyes/eyes-before_ps2q4x.jpg",
+        className: "reels",
+      },
+      {
+        type: "after",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770297480/eyes/eyes-after_hk89a0.jpg",
+        className: "reels",
+      },
+      {
+        type: "analitic",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770297475/eyes/eyes-analitic6_o0uyf8.jpg",
+        className: "reels",
+      },
+      {
+        type: "analitic",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770297476/eyes/eyes-analitic7_ng5yqu.jpg",
+        className: "reels",
+      },
+      {
+        type: "realsVideo",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1770298426/eyes/eyes-reals1_medvwz.mp4",
+        className: "reels",
+      },
+      {
+        type: "realsVideo",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1770298442/eyes/eyes-reals2_e9nzf5.mp4",
+        className: "reels",
+      },
+      {
+        type: "realsVideo",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1770298453/eyes/eyes-reals3_vgwcu0.mp4",
+        className: "reels",
+      },
+      {
+        type: "realsVideo",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1770298772/eyes/eyes-reals4_lrvqqb.mp4",
+        className: "reels",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770297506/eyes/eyes-post3_ipbw5k.png",
+        className: "analytics",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770297489/eyes/eyes-post6_kj1ful.png",
+        className: "analytics",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770297487/eyes/eyes-post4_sagm7l.png",
+        className: "analytics",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770297489/eyes/eyes-post5_ry8t65.png",
+        className: "analytics",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770297485/eyes/eyes-post2_lxmvix.png",
+        className: "analytics",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770297484/eyes/eyes-post_ahog0n.png",
         className: "analytics",
       },
     ],
