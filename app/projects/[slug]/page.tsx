@@ -4,6 +4,12 @@ import { projectData } from "@/data/projectData";
 import ProjectGallery from "@/components/ProjectGallery";
 import Image from "next/image";
 
+export async function generateStaticParams() {
+  return Object.keys(projectData).map((slug) => ({
+    slug,
+  }));
+}
+
 interface ProjectPageProps {
   params: { slug: string };
 }
@@ -11,8 +17,6 @@ interface ProjectPageProps {
 export default async function ProjectDetails({ params }: ProjectPageProps) {
   const { slug } = await params;
   const project = projectData[slug];
-
-  const { title, url, request, description, media } = project;
 
   if (!project) {
     return (
@@ -26,6 +30,8 @@ export default async function ProjectDetails({ params }: ProjectPageProps) {
       </main>
     );
   }
+
+  const { title, url, request, description, media } = project;
 
   const introFoto = media.find((item) => item.type === "introFoto");
   const beforeFoto = media.find((item) => item.type === "before");

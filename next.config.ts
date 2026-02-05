@@ -1,12 +1,19 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig: NextConfig = {
+  output: "export",
+
+  basePath: isProd ? "/smm-portfolio" : "",
+  assetPrefix: isProd ? "/smm-portfolio/" : "",
+
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
         hostname: "res.cloudinary.com",
-        port: "",
         pathname: "/dwkfvnq5q/**",
       },
     ],
