@@ -26,7 +26,7 @@ export const projectData: Record<string, Project> = {
       },
       {
         type: "storis",
-        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1764166043/ricota/ricota-storis1_ofwukb.jpg",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774628352/ricota/ricota-storis1_cpqqhq.jpg",
         className: "stories",
       },
       {
@@ -41,7 +41,7 @@ export const projectData: Record<string, Project> = {
       },
       {
         type: "storis",
-        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1764166043/ricota/ricota-storis3_r7l74b.jpg",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774628350/ricota/ricota-storis3_rco0sw.jpg",
         className: "stories",
       },
       {
@@ -594,6 +594,255 @@ export const projectData: Record<string, Project> = {
       {
         type: "post",
         src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770297484/eyes/eyes-post_ahog0n.png",
+        className: "analytics",
+      },
+    ],
+  },
+  vesna: {
+    title: "vesna.clinic",
+    url: "https://www.instagram.com/vesna.clinic",
+    image: "",
+    request: `• Вибудувати контент, який працює на реальні звернення та запис пацієнтів.
+• Залучати активних лідів, які приходять не лише дивитися контент, а записуються на консультації та процедури.
+• Показати експертність клініки через пояснення процедур, підхід лікарів та медичну логіку роботи.
+• Сформувати довіру до клініки, щоб пацієнт розумів різницю між просто косметологією та медичним підходом.`,
+    description: `• Сторінка клініки наповнена експертним контентом, який пояснює логіку процедур, підсилює довіру та формує репутацію професійної команди лікарів
+• У контенті регулярно показуються реальні результати пацієнтів (до / після) з поясненням етапів роботи та очікуваних результатів
+• Сторітелінги побудовані навколо реальних запитів, страхів і болів пацієнтів, з простими поясненнями та зрозумілою логікою
+• Сформований впізнаваний стиль комунікації та storytelling, який відповідає Tone of Voice клініки та формує довіру до бренду
+• Контент системно пояснює процедури, їх показання та можливості, що допомагає пацієнтам приймати усвідомлені рішення щодо лікування та догляду`,
+    media: [
+      {
+        type: "introFoto",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774625224/vesna/vesna-intro_tedfkn.jpg",
+        className: "stories",
+      },
+      {
+        type: "storis",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774625266/vesna/vesna-storis1_jb8dbf.png",
+        className: "stories",
+      },
+      {
+        type: "storis",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774625273/vesna/vesna-storis2_miy9zf.mp4",
+        className: "stories",
+      },
+      {
+        type: "storis",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774625293/vesna/vesna-storis3_axft1e.png",
+        className: "stories",
+      },
+      {
+        type: "storis",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774625618/vesna/vesna-storis5_fg08t1.mp4",
+        className: "stories",
+      },
+      {
+        type: "storis",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774625288/vesna/vesna-storis4_tjddcs.png",
+        className: "stories",
+      },
+      {
+        type: "storis",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774625292/vesna/vesna-storis6_cg2ssi.mp4",
+        className: "stories",
+      },
+      {
+        type: "before",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774625451/vesna/vesna_before_ii4uub.jpg",
+        className: "reels",
+      },
+      {
+        type: "after",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774625450/vesna/vesna_after_oytnxl.jpg",
+        className: "reels",
+      },
+      {
+        type: "analitic",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774626037/vesna/vesna-analitic5_ti85gl.jpg",
+        className: "reels",
+      },
+      {
+        type: "analitic",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774626046/vesna/vesna-analitic3_zamwvx.jpg",
+        className: "reels",
+      },
+      {
+        type: "analitic",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774626039/vesna/vesna-analitic6_iwpkwk.jpg",
+        className: "reels",
+      },
+      {
+        type: "analitic",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774626036/vesna/vesna-analitic4_chti3z.jpg",
+        className: "reels",
+      },
+      {
+        type: "realsVideo",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774626454/vesna/vesna-reals1_xyozm0.mp4",
+        className: "reels",
+      },
+      {
+        type: "realsVideo",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774626450/vesna/vesna-reals2_rdiqku.mp4",
+        className: "reels",
+      },
+      {
+        type: "realsVideo",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774626474/vesna/vesna-reals3_uznufe.mp4",
+        className: "reels",
+      },
+      {
+        type: "realsVideo",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774626472/vesna/vesna-reals4_ucpkye.mp4",
+        className: "reels",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774625728/vesna/vesna-posts1_pbkdvz.mp4",
+        className: "analytics",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774625763/vesna/vesna-posts2_qts04g.png",
+        className: "analytics",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774625800/vesna/vesna-posts3_gjcjml.mp4",
+        className: "analytics",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774625808/vesna/vesna-poosts4_es51nc.png",
+        className: "analytics",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774625823/vesna/vesna-posts5_ekihhe.png",
+        className: "analytics",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774625831/vesna/vesna-posts6_rxr5gw.png",
+        className: "analytics",
+      },
+    ],
+  },
+  major: {
+    title: "major.skin.care",
+    url: "https://www.instagram.com/major.skin.care",
+    image: "",
+    request: `• Вибудувати чітке позиціонування студії.
+• Розробити єдиний tone of voice та комунікаційну платформу бренду.
+• Підвищити впізнаваність бренду та експертність у ніші лазерної
+  епіляції/апаратного масажу/пресотерапіїі тд.
+• Збільшити залученість аудиторії та конверсію зі сторіс та рілс у запис.`,
+    description: `• Розроблена SMM-стратегія просування.
+• Аналіз конкурентів і ЦА.
+• Визначено tone of voice (експертно, чітко, без “води”).
+• Створення хайлайтс.
+• Запуск системи продаючих сторіс
+• Розробка і впровадження контент-плану і регулярне ведення сторінки.`,
+    media: [
+      {
+        type: "introFoto",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774626753/Major/MAJOR-intro_sss3sd.jpg",
+        className: "stories",
+      },
+      {
+        type: "storis",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774627329/Major/major-storis1_hlfnne.mp4",
+        className: "stories",
+      },
+      {
+        type: "storis",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774627323/Major/major-storis2_kq6rse.jpg",
+        className: "stories",
+      },
+      {
+        type: "storis",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774627311/Major/major-storis3_dab2id.mp4",
+        className: "stories",
+      },
+      {
+        type: "storis",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774627307/Major/major-storis4_qnfjb0.jpg",
+        className: "stories",
+      },
+      {
+        type: "storis",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774627327/Major/major-storis5_xuqrly.mp4",
+        className: "stories",
+      },
+      {
+        type: "storis",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774627308/Major/major-storis6_znekem.jpg",
+        className: "stories",
+      },
+      {
+        type: "before",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774627318/Major/major-before_ekenhw.jpg",
+        className: "reels",
+      },
+      {
+        type: "after",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774627321/Major/major-after_tvkktk.jpg",
+        className: "reels",
+      },
+      // {
+      //   type: "analitic",
+      //   src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774626037/vesna/vesna-analitic5_ti85gl.jpg",
+      //   className: "reels",
+      // },
+      {
+        type: "realsVideo",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774627757/Major/major-reals1_bgvjod.mp4",
+        className: "reels",
+      },
+      {
+        type: "realsVideo",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774627919/Major/major-reals2_rijs1y.mp4",
+        className: "reels",
+      },
+      {
+        type: "realsVideo",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774627906/Major/major-reals3_fnhst8.mp4",
+        className: "reels",
+      },
+      {
+        type: "realsVideo",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774627843/Major/major-reals4_own32l.mp4",
+        className: "reels",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774627925/Major/major-posts6_rkkviy.png",
+        className: "analytics",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774627935/Major/major-posts5_wcqan7.mp4",
+        className: "analytics",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774627929/Major/major-posts2_apedqv.png",
+        className: "analytics",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774627940/Major/major-posts1_dygkmx.mp4",
+        className: "analytics",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774627928/Major/major-posts4_shpkap.png",
+        className: "analytics",
+      },
+      {
+        type: "post",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774627933/Major/major-posts3_x6qro4.mp4",
         className: "analytics",
       },
     ],

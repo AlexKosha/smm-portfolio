@@ -9,6 +9,9 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { useEffect, useState } from "react";
+
+import LazyVideo from "./LazyVideo"; // імпорт твого компонента
 
 interface ImageItem {
   type: "storis" | "analitic" | "post" | "introFoto" | "before" | "after";
@@ -28,17 +31,36 @@ interface ProjectGalleryProps {
   project: Project;
 }
 
+const optimizeImage = (url: string) => {
+  if (typeof url !== "string") return url;
+
+  if (url.includes("cloudinary")) {
+    return url.replace("/upload/", "/upload/f_auto,q_auto,w_800/");
+  }
+
+  return url;
+};
+
 export default function ProjectGallery({ project }: ProjectGalleryProps) {
   const { media } = project;
+  const [showGallery, setShowGallery] = useState(false);
 
   // --- MAP пропорцій для кожного типу ---
   const styleMap: Record<string, string> = {
     storis: "aspect-[9/16] w-[260px] md:w-[260px]",
     analitic: "aspect-[3,5/5] w-[260px] md:w-[300px]",
-    post: "aspect-[4/5] w-[320px] md:w-[380px]", // ← ШИРШЕ!
+    post: "aspect-[4/5] w-[320px] md:w-[380px]",
     video: "aspect-[9/16] w-[260px] md:w-[260px]",
     realsVideo: "aspect-[9/16] w-[260px] md:w-[260px]",
   };
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowGallery(true);
+    }, 300);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   const getStyle = (type: string) =>
     styleMap[type] || "aspect-[9/16] w-[260px]";
@@ -49,7 +71,7 @@ export default function ProjectGallery({ project }: ProjectGalleryProps) {
     if (!items.length) return null;
 
     return (
-      <section className="">
+      <section>
         <h3 className="text-2xl font-bold text-pink-500 mb-8 text-center">
           {title}
         </h3>
@@ -61,7 +83,7 @@ export default function ProjectGallery({ project }: ProjectGalleryProps) {
             pagination={{ clickable: true }}
             spaceBetween={20}
             slidesPerView={1}
-            loop={true}
+            loop={false}
           >
             {items.map((item, i) => {
               const isVideo =
@@ -71,21 +93,19 @@ export default function ProjectGallery({ project }: ProjectGalleryProps) {
                 <SwiperSlide key={i}>
                   <div
                     className={`w-[260px] mx-auto rounded-xl overflow-hidden ${getStyle(
-                      type
+                      type,
                     )}`}
                   >
                     {isVideo ? (
-                      <video
-                        src={item.src as string}
-                        controls
-                        className="w-full h-full object-cover"
-                      />
+                      <LazyVideo src={item.src as string} />
                     ) : (
                       <Image
-                        src={item.src}
+                        src={optimizeImage(item.src as string)}
                         alt={title}
                         width={600}
                         height={1000}
+                        sizes="(max-width: 768px) 260px, 300px"
+                        loading="lazy"
                         className="w-full h-full object-cover"
                       />
                     )}
@@ -106,21 +126,19 @@ export default function ProjectGallery({ project }: ProjectGalleryProps) {
               <div
                 key={i}
                 className={`rounded-xl overflow-hidden shadow-md w-[260px] ${getStyle(
-                  type
+                  type,
                 )}`}
               >
                 {isVideo ? (
-                  <video
-                    src={item.src as string}
-                    controls
-                    className="w-full h-full object-cover"
-                  />
+                  <LazyVideo src={item.src as string} />
                 ) : (
                   <Image
-                    src={item.src}
+                    src={optimizeImage(item.src as string)}
                     alt={title}
                     width={600}
                     height={1000}
+                    sizes="(max-width: 768px) 260px, 300px"
+                    loading="lazy"
                     className="w-full h-full object-cover"
                   />
                 )}
@@ -146,20 +164,22 @@ export default function ProjectGallery({ project }: ProjectGalleryProps) {
             <div
               key={i}
               className={`rounded-xl overflow-hidden shadow-md w-[260px] ${getStyle(
-                type
+                type,
               )}`}
             >
-              <video
-                src={item.src as string}
-                controls
-                className="w-full h-full object-cover"
-              />
+              <LazyVideo src={item.src as string} />
             </div>
           ))}
         </div>
       </section>
     );
   };
+
+  if (!showGallery) {
+    return (
+      <div className="text-center py-20 text-gray-400">Завантаження...</div>
+    );
+  }
 
   return (
     <div className="flex flex-col gap-20 px-4 md:px-16">

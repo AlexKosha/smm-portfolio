@@ -29,4 +29,16 @@ export const projects = [
       "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1770297478/eyes/eyes-intro_yil5k3.jpg",
     title: "eyes.ua",
   },
+  {
+    slug: "vesna",
+    image:
+      "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774625224/vesna/vesna-intro_tedfkn.jpg",
+    title: "vesna.clinic",
+  },
+  {
+    slug: "major",
+    image:
+      "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774626753/Major/MAJOR-intro_sss3sd.jpg",
+    title: "MAJOR SKIN CARE",
+  },
 ];
