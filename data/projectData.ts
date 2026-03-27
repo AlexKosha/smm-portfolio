@@ -2,7 +2,7 @@ import { Project } from "../types/projectTypes";
 
 export const projectData: Record<string, Project> = {
   ricota: {
-    title: "Клініка RICOTA",
+    title: "Клініка RIKOTA",
     url: "https://www.instagram.com/stomatologia_rikota",
     image: "",
     request: `• Розробити візуальний стиль на основі бренду.
@@ -36,7 +36,7 @@ export const projectData: Record<string, Project> = {
       },
       {
         type: "storis",
-        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1764166042/ricota/ricota-storis2_aeg5lu.jpg",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774628681/ricota/ricota-storis2_lnahoi.jpg",
         className: "stories",
       },
       {
@@ -176,7 +176,7 @@ export const projectData: Record<string, Project> = {
       },
       {
         type: "storis",
-        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1764166902/detailing/detailing-storis5_yqgils.jpg",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774629247/detailing/detailing-storis5_pvgbrv.jpg",
         className: "stories",
       },
       {
@@ -699,32 +699,27 @@ export const projectData: Record<string, Project> = {
       },
       {
         type: "post",
-        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774625728/vesna/vesna-posts1_pbkdvz.mp4",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774630103/vesna/vesna-posts1_fcaw84.png",
         className: "analytics",
       },
       {
         type: "post",
-        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774625763/vesna/vesna-posts2_qts04g.png",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774630111/vesna/vesna-posts2_sgxejn.mp4",
         className: "analytics",
       },
       {
         type: "post",
-        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774625800/vesna/vesna-posts3_gjcjml.mp4",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774630107/vesna/vesna-posts3_yutdlj.mp4",
         className: "analytics",
       },
       {
         type: "post",
-        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774625808/vesna/vesna-poosts4_es51nc.png",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774630100/vesna/vesna-posts4_wplcjn.png",
         className: "analytics",
       },
       {
         type: "post",
-        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774625823/vesna/vesna-posts5_ekihhe.png",
-        className: "analytics",
-      },
-      {
-        type: "post",
-        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774625831/vesna/vesna-posts6_rxr5gw.png",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774630098/vesna/vesna-posts5_pmvntn.png",
         className: "analytics",
       },
     ],
@@ -817,32 +812,22 @@ export const projectData: Record<string, Project> = {
       },
       {
         type: "post",
-        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774627925/Major/major-posts6_rkkviy.png",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774629910/Major/major-posts1_fedklq.png",
         className: "analytics",
       },
       {
         type: "post",
-        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774627935/Major/major-posts5_wcqan7.mp4",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774629905/Major/major-posts2_b0iufz.png",
         className: "analytics",
       },
       {
         type: "post",
-        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774627929/Major/major-posts2_apedqv.png",
+        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774629913/Major/major-posts3_wlllso.mp4",
         className: "analytics",
       },
       {
         type: "post",
-        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774627940/Major/major-posts1_dygkmx.mp4",
-        className: "analytics",
-      },
-      {
-        type: "post",
-        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774627928/Major/major-posts4_shpkap.png",
-        className: "analytics",
-      },
-      {
-        type: "post",
-        src: "https://res.cloudinary.com/dwkfvnq5q/video/upload/v1774627933/Major/major-posts3_x6qro4.mp4",
+        src: "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1774629907/Major/major-posts4_jcnsfy.png",
         className: "analytics",
       },
     ],

@@ -9,7 +9,7 @@ export const projects = [
     slug: "ricota",
     image:
       "https://res.cloudinary.com/dwkfvnq5q/image/upload/v1764198531/ricota/ricota-intro_yaluss.jpg",
-    title: "Клініка RICOTA",
+    title: "Клініка RIK1OTA",
   },
   {
     slug: "cookie",
